@@ -1,0 +1,32 @@
+@font-face{
+    font-family: "BebasKai";
+    src: url("media/bebas-kai.woff");
+}
+
+body{
+    /*Para que quede justo abajito del navbar, pero no tan separado.*/
+    padding-top: 51px;
+}
+
+.navbar{
+    background-color: #FFFF01;
+    font-family: "BebasKai";
+    color: black !important;
+}
+
+#header-gif{
+    background-image: url("media/sonorum-gif-7.gif");
+    background-size: cover;
+    height: 450px;
+    
+    /*Para que la imagen se centre*/
+    display: table;
+    width: 100%;
+}
+
+/*Imagen centrada*/
+#header-gif > div{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
