@@ -1,3 +1,6 @@
+/*Fuente de Google Fonts*/
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300';
+
 @font-face{
     font-family: "BebasKai";
     src: url("media/bebas-kai.woff");
@@ -6,6 +9,13 @@
 body{
     /*Para que quede justo abajito del navbar, pero no tan separado.*/
     padding-top: 51px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 10px;
 }
 
 .navbar{
@@ -17,7 +27,7 @@ body{
 #header-gif{
     background-image: url("media/sonorum-gif-7.gif");
     background-size: cover;
-    height: 450px;
+    height: 418px;
     
     /*Para que la imagen se centre*/
     display: table;
