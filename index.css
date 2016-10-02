@@ -39,4 +39,6 @@ footer{
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    /*Para que naidien la arrastre.*/
+    pointer-events: none;
 }
