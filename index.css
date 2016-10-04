@@ -18,6 +18,8 @@ footer{
     padding-top: 10px;
 }
 
+/*Clases*/
+
 /*Fuentes a usar*/
 .fuenteBK{
     font-family: "BebasKai";
@@ -36,6 +38,8 @@ footer{
     font-family: "BebasKai";
     color: black !important;
 }
+
+/*ids*/
 
 #header-gif{
     background-image: url("media/sonorum-gif-7.gif");
@@ -59,4 +63,8 @@ footer{
 #s1-titulo{
     font-size: 10em;
     font-weight: bold;
+}
+
+#galeria{
+    pointer-events: none;
 }
