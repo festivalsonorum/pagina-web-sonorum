@@ -18,6 +18,19 @@ footer{
     padding-top: 10px;
 }
 
+/*Fuentes a usar*/
+.fuenteBK{
+    font-family: "BebasKai";
+}
+
+.fuenteSCP{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
 .navbar{
     background-color: #FFFF01;
     font-family: "BebasKai";
@@ -41,4 +54,9 @@ footer{
     text-align: center;
     /*Para que naidien la arrastre.*/
     pointer-events: none;
+}
+
+#s1-titulo{
+    font-size: 10em;
+    font-weight: bold;
 }
