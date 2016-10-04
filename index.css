@@ -68,3 +68,8 @@ footer{
 #galeria{
     pointer-events: none;
 }
+
+#p5{
+    margin: 0;
+    padding: 0;
+}
