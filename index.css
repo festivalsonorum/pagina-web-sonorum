@@ -73,3 +73,7 @@ footer{
     margin: 0;
     padding: 0;
 }
+
+#header-gif-2{
+    background-image: url("media/sonorum_4.gif");
+}
