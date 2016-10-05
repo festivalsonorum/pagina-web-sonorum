@@ -44,7 +44,7 @@ footer{
 #header-gif{
     background-image: url("media/sonorum-gif-7.gif");
     background-size: cover;
-    height: 418px;
+    height: 200px;
     
     /*Para que la imagen se centre*/
     display: table;
@@ -57,6 +57,10 @@ footer{
     vertical-align: middle;
     text-align: center;
     /*Para que naidien la arrastre.*/
+    pointer-events: none;
+}
+
+#logo{
     pointer-events: none;
 }
 
