@@ -22,8 +22,8 @@ function setup() {
 
 function draw() {
     background(255);
-    var mausX = map(mouseX, 0, 100, 0, 100);
+    var mausX = map(mouseX, 0, 50, 0, 50);
     textSize(mausX);
     fill(0);
-    text("RESONAR", ancho / 2, (altura / 2) + 40);
+    text("algo interactivo", ancho / 2, (altura / 2) + 40);
 }
