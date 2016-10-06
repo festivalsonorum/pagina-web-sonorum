@@ -17,6 +17,13 @@ footer{
     font-family: 'Source Sans Pro', sans-serif;
     padding-top: 10px;
 }
+ 
+span.text-content span{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
 
 /*Clases*/
 
@@ -67,10 +74,6 @@ footer{
 #s1-titulo{
     font-size: 10em;
     font-weight: bold;
-}
-
-#galeria{
-    pointer-events: none;
 }
 
 #p5{
