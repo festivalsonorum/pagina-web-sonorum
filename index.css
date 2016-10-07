@@ -24,6 +24,11 @@ span.text-content span{
   vertical-align: middle;
 }
 
+a{
+    color: black;
+    font-weight: 500;
+}
+
 
 /*Clases*/
 
