@@ -89,3 +89,7 @@ a{
 #header-gif-2{
     background-image: url("media/sonorum_4.gif");
 }
+
+#copyrights > a{
+    color: mediumseagreen !important;
+}
