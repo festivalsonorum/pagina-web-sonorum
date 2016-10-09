@@ -93,3 +93,8 @@ a{
 #copyrights > a{
     color: mediumseagreen !important;
 }
+
+#artistas{
+    font-family: "BebasKai";
+    font-size: 1.2em; 
+}
