@@ -1,0 +1,88 @@
+/*Fuente de Google Fonts*/
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300"; /*Texto general*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300'); /*Otros*/
+
+
+body {
+  background-color: #c5c3c3;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;;
+  padding-top: 10px;
+  font-size: 0.9em;
+}
+
+/*clases------------------------------------------------*/
+
+/*El que separa secciones*/
+.separador {
+  background-color: #864789;
+  height: 10px;
+}
+
+.tituloGrande{
+    font-size: 3em;
+    color: #656567
+}
+
+.tituloMasGrande{
+  font-size: 5em;
+  color: #656567
+}
+
+.parrafo{
+  font-size: 1.2em;
+}
+
+
+/*ids---------------------------------------------------------------*/
+
+#divArtistas{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/*efectos de css--------------------------------------------*/
+
+/*blinking*/
+.blink_me {
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+
+  -moz-animation-name: blinker;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+
+  animation-name: blinker;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+/*fin de blinking*/
