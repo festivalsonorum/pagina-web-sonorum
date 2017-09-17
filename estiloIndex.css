@@ -2,19 +2,18 @@
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300"; /*Texto general*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300'); /*Otros*/
 
-
 body {
   background-color: #c5c3c3;
 }
 
 h1 {
-    font-family: 'Source Sans Pro', sans-serif;;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 footer {
   background-color: black;
   color: white;
-  font-family: 'Source Sans Pro', sans-serif;;
+  font-family: "Source Sans Pro", sans-serif;
   padding-top: 10px;
   font-size: 0.9em;
 }
@@ -27,28 +26,44 @@ footer {
   height: 10px;
 }
 
-.tituloGrande{
-    font-size: 3em;
-    color: #656567
+.tituloGrande {
+  font-size: 3em;
+  color: #656567;
 }
 
-.tituloMasGrande{
+.tituloMasGrande {
   font-size: 5em;
-  color: #656567
+  color: #656567;
 }
 
-.parrafo{
+.parrafo {
   font-size: 1.2em;
+}
+
+.artistas {
+  /*Varias cosas aquí son para el efecto Resaltador*/
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, rgb(150, 150, 150) 50%);
+  background-size: 200%;
+  background-position: 0 0;
+  /*display: inline;*/
+  transition: .10s ease-in-out;
+  font-size: 2.8em;
 }
 
 
 /*ids---------------------------------------------------------------*/
 
-#divArtistas{
-  font-family: 'Open Sans Condensed', sans-serif;
+#divArtistas {
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 /*efectos de css--------------------------------------------*/
+
+/*Resaltador: Que cuando pase el cursor encima del texto, se resalte*/
+.artistas:hover {
+  background-position: -100% 0;
+
+}
 
 /*blinking*/
 .blink_me {
@@ -68,21 +83,39 @@ footer {
   animation-iteration-count: infinite;
 }
 
-@-moz-keyframes blinker {  
-  0% { opacity: 1.0; }
-  50% { opacity: 0.0; }
-  100% { opacity: 1.0; }
+@-moz-keyframes blinker {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-@-webkit-keyframes blinker {  
-  0% { opacity: 1.0; }
-  50% { opacity: 0.0; }
-  100% { opacity: 1.0; }
+@-webkit-keyframes blinker {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-@keyframes blinker {  
-  0% { opacity: 1.0; }
-  50% { opacity: 0.0; }
-  100% { opacity: 1.0; }
+@keyframes blinker {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 /*fin de blinking*/
