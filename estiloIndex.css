@@ -42,14 +42,29 @@ footer {
 
 .artistas {
   /*Varias cosas aquí son para el efecto Resaltador*/
-  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, rgb(150, 150, 150) 50%);
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    rgb(150, 150, 150) 50%
+  );
   background-size: 200%;
   background-position: 0 0;
   /*display: inline;*/
-  transition: .10s ease-in-out;
+  transition: 0.1s ease-in-out;
   font-size: 2.8em;
+  cursor: pointer;
 }
 
+.infoArtistas {
+  width: 30em;
+  text-align: justify;
+  font-size: 1.4em;
+}
+
+.infoArtistasDer {
+  text-align: justify;
+  font-size: 1.4em;
+}
 
 /*ids---------------------------------------------------------------*/
 
@@ -62,7 +77,6 @@ footer {
 /*Resaltador: Que cuando pase el cursor encima del texto, se resalte*/
 .artistas:hover {
   background-position: -100% 0;
-
 }
 
 /*blinking*/
