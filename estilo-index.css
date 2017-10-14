@@ -20,6 +20,60 @@ footer {
 
 /*clases------------------------------------------------*/
 
+/*El menu sidebar - INICIO (sí, lo copié vilmente de w3schools.com ;_;*/
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*El menu sidebar - FIN*/
+
 /*El que separa secciones*/
 .separador {
   background-color: #864789;
@@ -66,16 +120,43 @@ footer {
   font-size: 1.4em;
 }
 
+.parrafo-especial{
+  color: #656567;
+}
+
+.artistas-2016-hover{
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    rgb(150, 150, 150) 50%
+  );
+  background-size: 200%;
+  background-position: 0 0;
+  /*display: inline;*/
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
+  font-size: 1.1em;
+}
 /*ids---------------------------------------------------------------*/
 
 #divArtistas {
   font-family: "Open Sans Condensed", sans-serif;
 }
 
+#boton-menu{
+  cursor: pointer; 
+  font-size: 2.8em;
+  position: fixed;
+}
+
 /*efectos de css--------------------------------------------*/
 
 /*Resaltador: Que cuando pase el cursor encima del texto, se resalte*/
 .artistas:hover {
+  background-position: -100% 0;
+}
+
+.artistas-2016-hover:hover{
   background-position: -100% 0;
 }
 
@@ -87,12 +168,12 @@ footer {
   -webkit-animation-iteration-count: infinite;
 
   -moz-animation-name: blinker;
-  -moz-animation-duration: 1s;
+  -moz-animation-duration: 0.8s;
   -moz-animation-timing-function: linear;
   -moz-animation-iteration-count: infinite;
 
   animation-name: blinker;
-  animation-duration: 1s;
+  animation-duration: 0.8s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }

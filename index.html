@@ -13,14 +13,38 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
         crossorigin="anonymous">
     <!--CSS-->
-    <link rel="stylesheet" href="estiloIndex.css">
+    <link rel="stylesheet" href="estilo-index.css">
 
 </head>
 
 <body>
 
+
+    <!--Menú INICIO -->
     <div class="container-fluid">
-        <center><img src="media/header_chico.png" class="img-fluid" alt="Festival Sonorum"></center>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Acerca</a>
+            <a href="#">Galería</a>
+            <a href="#">Contacto</a>
+        </div>
+
+        <!-- Use any element to open the sidenav -->
+        <span data-toogle="tooltip" title="Menú" data-placement="right" id="boton-menu" onclick="openNav()">⧉</span>
+
+        <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page 
+              <div id="main">
+                ...
+              </div>
+              -->
+        <!-- Menú FIN -->
+    </div>
+
+    <br>
+    <div class="container-fluid">
+        <center>
+            <img src="media/header_chico.png" class="img-fluid" alt="Festival Sonorum">
+        </center>
     </div>
 
     <!--¿Qué es?-->
@@ -33,11 +57,14 @@
         <br>
         <div class="row">
             <div class="col-sm-6">
-                <p class="parrafo text-justify"><b>SONORUM</b> es una cita artística anual de proyección internacional que busca profundizar la interacción
+                <p class="parrafo text-justify">
+                    <b>SONORUM</b> es una cita artística anual de proyección internacional que busca profundizar la interacción
                     entre la comunidad ciudadana, el espacio público y las nuevas tecnologías.</p>
-                <p class="parrafo text-justify">El objetivo de <b>SONORUM</b> es promover el acceso <i>democrático</i> a las nuevas tecnologías mediante
-                    la transformación de los recintos en espacios de acercamiento a la cultura digital global, a través de
-                    <b>experiencias abiertas que estén  basadas  en nuevos medios</b>. </p>
+                <p class="parrafo text-justify">El objetivo de
+                    <b>SONORUM</b> es promover el acceso
+                    <i>democrático</i> a las nuevas tecnologías mediante la transformación de los recintos en espacios de acercamiento
+                    a la cultura digital global, a través de
+                    <b>experiencias abiertas que estén basadas en nuevos medios</b>. </p>
 
             </div>
             <div class="col-sm-6">
@@ -52,8 +79,14 @@
 
             <div class="col-sm-12">
                 <center>
-                    <h1 class="tituloMasGrande"><b>L I N E U P // 2 0 1 7</b></h1>
-                    <h1 class="tituloMasGrande"><b>próximamente<span class="blink_me">_</span></b></h1>
+                    <h1 class="tituloMasGrande">
+                        <b>L I N E U P // 2 0 1 7</b>
+                    </h1>
+                    <h1 class="tituloGrande">
+                        <b>próximamente
+                            <span class="blink_me">_</span>
+                        </b>
+                    </h1>
                 </center>
             </div>
         </div>
@@ -61,13 +94,63 @@
         <div class="row">
             <div class="col-sm-12">
                 <center>
-                    <h1 class="tituloGrande"><b>2 0 1 6</b></h1>
+                    <h1 class="tituloGrande">
+                        <b>2 0 1 6</b>
+                    </h1>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/embed/ev2dakDd-e4?rel=0&amp;controls=0&amp;showinfo=0"
+                            frameborder="0"></iframe>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-12">
+                <center>
+                    <h3 id="boton-artistas" style="cursor: pointer;" class="parrafo-especial">
+                        <span class="blink_me">_</span> Artistas</h3>
                 </center>
             </div>
         </div>
     </div>
     <br>
-    <!--Artistas-->
+    <!-- artistas 2016-->
+    <div id ="artistas-2016" class="container">
+        <div class="row parrafo">
+            <div class="col-sm-12">
+                <center>
+                    <p class="artistas-2016-hover">Takami Nakamoto & /*pac interactive</p>
+                    <p class="artistas-2016-hover">Machino</p>
+                </center>
+            </div>
+        </div>
+        <div class="row parrafo">
+            <div class="col-sm-6">
+                <center>
+                    <p class="artistas-2016-hover">Esstro9 & Turning Torso (META)</p>
+                    <p class="artistas-2016-hover">Kumcu Manik (Manik Table)</p>
+                    <p class="artistas-2016-hover">Ex Replica</p>
+                    <p class="artistas-2016-hover">Technic Trouble</p>
+                    <p class="artistas-2016-hover">Fak.Ename a/v</p>
+                </center>
+            </div>
+            <div class="col-sm-6">
+                <center>
+                    <p class="artistas-2016-hover">Flz Fdz</p>
+                    <p class="artistas-2016-hover">Erreopeo</p>
+                    <p class="artistas-2016-hover">Ex Replica</p>
+                    <p class="artistas-2016-hover">JC Zubiaur (Synthetics)</p>
+                    <p class="artistas-2016-hover">Unity Technologies</p>
+                </center>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+
+    <!--Artistas (lo dejo por si las flais)
     <div id="divArtistas" class="container">
 
         <div class="row">
@@ -79,7 +162,7 @@
             <div class="col-sm-12">
                 <img class="img-fluid" src="media/makamInfo.png" alt="">
             </div>
-        </div> -->
+        </div>
 
         <div class="row">
             <div class="col-sm-12 text-right">
@@ -137,10 +220,11 @@
             </div>
         </div>
     </div>
+-->
 
 
     <br>
-
+    <!--Contacto - INICIO-->
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-4">
@@ -153,6 +237,7 @@
         </div>
 
     </div>
+
 
     <!--Imagen de fondo en bottom-->
     <div class="container-fluid">
@@ -167,10 +252,17 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12 text-center" id="futer">
-                    <a target="_blank" href="https://www.facebook.com/festivalsonorum"><img src="media/icono-fb.png" alt="Facebook"></a>
-                    <a target="_blank" href="https://www.instagram.com/festival_sonorum/"><img src="media/icono-inst.png" alt="Instagram"></a>
+                    <a target="_blank" href="https://www.facebook.com/festivalsonorum">
+                        <img src="media/icono-fb.png" alt="Facebook">
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/festival_sonorum/">
+                        <img src="media/icono-inst.png" alt="Instagram">
+                    </a>
                     <p id="copyrights">Festival Sonorum 2017 (página en construcción) &copy;. Todos los derechos reservados | Página web por
-                        <a target="_blank" href="http://animanoir.com"><b>Animanoir</b></a></p>
+                        <a target="_blank" href="http://animanoir.com">
+                            <b>Animanoir</b>
+                        </a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -186,7 +278,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
         crossorigin="anonymous"></script>
     <!--mi js externo-->
-    <script src="js/javascript.js"></script>
+    <script src="js/codigo.js"></script>
     <!--Fin de jQuery de Bootstrap-->
 </body>
 
