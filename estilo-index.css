@@ -145,7 +145,7 @@ footer {
 
 #boton-menu{
   cursor: pointer; 
-  font-size: 2.8em;
+  font-size: 2.5em;
   position: fixed;
 }
 /*efectos de css--------------------------------------------*/
@@ -167,12 +167,12 @@ footer {
   -webkit-animation-iteration-count: infinite;
 
   -moz-animation-name: blinker;
-  -moz-animation-duration: 0.8s;
+  -moz-animation-duration: 1s;
   -moz-animation-timing-function: linear;
   -moz-animation-iteration-count: infinite;
 
   animation-name: blinker;
-  animation-duration: 0.8s;
+  animation-duration: 3.5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
