@@ -55,9 +55,9 @@ function draw() {
   amplitude = mapMouseY;
 }
 
-/*function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}*/
+function windowResized() {
+  resizeCanvas(windowWidth, 176);
+}
 
 
 function calcWave() {
