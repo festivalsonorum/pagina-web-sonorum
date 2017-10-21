@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>(en construcción) Festival Sonorum 2017</title>
 
 
@@ -12,6 +13,8 @@
     <!--Boostrap 4.0-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
         crossorigin="anonymous">
+    <!--W3-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!--CSS-->
     <link rel="stylesheet" href="estilo-index.css">
 
@@ -44,6 +47,19 @@
         <center>
             <img src="media/header_chico.png" class="img-fluid" alt="Festival Sonorum">
         </center>
+    </div>
+    <br>
+    <div  class="container-fluid">
+        <div class="row ">
+            <div id="p5Canvas" class="col-sm-12 ">
+                <div class="loadingclass" id="p5_loading">
+                    Cargando...
+                </div>
+                <div id="p5" >
+                    <!--logo-animado-->
+                </div>
+            </div>
+        </div>
     </div>
     <br>
     <!--¿Qué es?-->
@@ -225,16 +241,21 @@
     <!--Contacto - INICIO-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4 text-center">
 
             </div>
 
-            <div class="col-sm-8">
-                <img class="img-fluid" src="media/datos-contacto.png" alt="">
+            <div class="col-sm-12 text-center parrafo">
+                <h1 class="tituloGrande"><b>CONTACTO</b></h1>
+                <h4>t. +521 442 561 9266</h4>
+                <h4><b>festivalsonorum.com</b></h4>
+                <h4><b>contacto@festivalsonorum.com</b></h4>
+                <h4><a href="https://www.instagram.com/festival_sonorum/" target="_blank" >Instagram</a> / <a href="https://twitter.com/festivalsonorum" target="_blank">Twitter</a> / <a href="https://www.facebook.com/festivalsonorum" target="_blank">Facebook</a></h4>
             </div>
         </div>
-
     </div>
+    <!--Contacto - FIN-->
+    <br>
 
 
     <!--Imagen de fondo en bottom-->
@@ -278,6 +299,9 @@
     <!--mi js externo-->
     <script src="js/codigo.js"></script>
     <!--Fin de jQuery de Bootstrap-->
+    <!-- p5.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js"></script>
+    <script async src="js/p5js/logoSonorum.js" type="text/javascript"></script>
 </body>
 
 </html>

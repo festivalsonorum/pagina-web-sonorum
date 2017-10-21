@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300'); /*Otros*/
 
 body {
-  background-color: #DBDADA;
+  background-color: #D2D2D2;
 }
 
 h1 {
@@ -27,7 +27,7 @@ footer {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  z-index: 1000; /* Stay on top */
   top: 0;
   left: 0;
   background-color: #111; /* Black*/
@@ -147,6 +147,11 @@ footer {
   cursor: pointer; 
   font-size: 2.5em;
   position: fixed;
+}
+
+#p5Canvas{
+ z-index: -1;
+  
 }
 /*efectos de css--------------------------------------------*/
 
