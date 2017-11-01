@@ -55,7 +55,7 @@ function draw() {
   amplitude = mapMouseY;
 }
 
-function windowResized() {
+function windowResized(){
   resizeCanvas(windowWidth, 176);
 }
 
