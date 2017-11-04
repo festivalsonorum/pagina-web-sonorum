@@ -1,5 +1,41 @@
 $(document).ready(function () {
 
+    //Magnific-Popup
+    $('.image-link').magnificPopup({ type: 'image' });
+
+    $('.t-1').magnificPopup({
+        type: 'image'
+        // other options
+    });
+    $('.t-2').magnificPopup({
+        type: 'image'
+        // other options
+    });
+    $('.t-3').magnificPopup({
+        type: 'image'
+        // other options
+    });
+    $('.t-4').magnificPopup({
+        type: 'image'
+        // other options
+    });
+    $('.t-5').magnificPopup({
+        type: 'image'
+        // other options
+    });
+    $('.t-6').magnificPopup({
+        type: 'image'
+        // other options
+    });
+    $('.t-7').magnificPopup({
+        type: 'image'
+        // other options
+    });
+    $('.t-8').magnificPopup({
+        type: 'image'
+        // other options
+    });
+
     //Esconde los artistas 2016
     $("#artistas-2016").hide();
     //Si se hace click en 'Artistas' aparecen los artistas 2016:
