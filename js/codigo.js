@@ -1,5 +1,12 @@
 $(document).ready(function () {
 
+    //Esconde los artistas 2016
+    $("#artistas-2016").hide();
+    //Si se hace click en 'Artistas' aparecen los artistas 2016:
+    $("#boton-artistas").click(function () {
+        $("#artistas-2016").slideToggle(500);
+    });
+
     //Magnific-Popup
     $('.image-link').magnificPopup({ type: 'image' });
 
@@ -36,12 +43,7 @@ $(document).ready(function () {
         // other options
     });
 
-    //Esconde los artistas 2016
-    $("#artistas-2016").hide();
-    //Si se hace click en 'Artistas' aparecen los artistas 2016:
-    $("#boton-artistas").click(function () {
-        $("#artistas-2016").slideToggle(500);
-    });
+
 
     /*
     //Toogles de +info de artistas:
