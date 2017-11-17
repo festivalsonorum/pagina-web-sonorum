@@ -1,6 +1,8 @@
 /*Fuente de Google Fonts*/
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300"; /*Texto general*/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300'); /*Otros*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:600'); /*Otros*/
+
+@font-face { font-family: DIN; src: url('media/DINCondensed-Bold.ttf'); } 
 
 body {
   background-color: #D2D2D2;
@@ -18,7 +20,41 @@ footer {
   font-size: 0.9em;
 }
 
+video{
+ width: 100%;
+ height: auto;
+}
+
 /*clases------------------------------------------------*/
+
+.boton-menu{
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 0.5em;
+}
+
+
+.boton-menu:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.lineup-artistas{
+  font-size: 1.7em;
+  letter-spacing: 2px;
+  /* font-weight: bold; */
+  text-align: center;
+  font-family: "DIN", sans-serif;
+}
 
 .no-arrastrar{
   pointer-events: none;
@@ -91,7 +127,7 @@ footer {
 }
 
 .tituloMasGrande {
-  font-size: 5em;
+  font-size: 4.5em;
   color: #656567;
 }
 
@@ -157,6 +193,7 @@ footer {
   cursor: pointer; 
   font-size: 2.3em;
   position: fixed;
+  z-index: 1000;
 }
 
 #p5Canvas{

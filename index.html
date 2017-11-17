@@ -7,7 +7,6 @@
 
     <title>Festival Sonorum 2017</title>
 
-
     <!--Favicon-->
     <link rel="icon" type="image/png" href="media/favicon-32x32.png" sizes="32x32" />
     <!--Boostrap 4.0-->
@@ -22,6 +21,7 @@
 
 <body>
 
+    <!--HEADER INICIO-->
     <!--Menú INICIO  ___________________________________________________________________ -->
     <div class="container-fluid">
         <div id="mySidenav" class="sidenav">
@@ -34,7 +34,9 @@
         </div>
 
         <!-- Use any element to open the sidenav -->
-        <span data-toogle="tooltip" title="Menú" data-placement="right" id="boton-menu" onclick="openNav()">❯❯</span>
+        <span data-toogle="tooltip" title="Menú" data-placement="right" id="boton-menu" onclick="openNav()">
+            <button class="boton-menu">&#x027EB;</button>
+        </span>
 
         <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page 
               <div id="main">
@@ -45,13 +47,16 @@
     </div>
     <!-- Menú FIN ______________________________________________________________________ -->
 
-    <!-- HEADER INICIO ________________________________________________________________________ -->
-    <div class="container-fluid">
+    <!-- HEADER IMG INICIO ________________________________________________________________________ -->
+    <!-- <div class="container-fluid">
         <center>
             <img src="media/header_chico.png" class="img-fluid" alt="Festival Sonorum">
         </center>
-    </div>
-    <!-- HEADER FIN ________________________________________________________________________ -->
+    </div> -->
+    <video width="400" autoplay loop muted>
+        <source src="media/sonorum17-vbanner.mp4" type="video/mp4">
+    </video>
+    <!-- HEADER IMG FIN ________________________________________________________________________ -->
     <br>
     <!--ANIMACIÓN INICIO ____________________________________________________________________________ -->
     <div class="container-fluid">
@@ -67,6 +72,49 @@
         </div>
     </div>
     <!--ANIMACIÓN FIN ____________________________________________________________________________ -->
+    <!--HEADER FIN-->
+    <br>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-12">
+                <center>
+                    <h1 class="tituloMasGrande">
+                        <b>L I N E U P // 2 0 1 7</b>
+                    </h1>
+                </center>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 lineup-artistas">
+                <p class="artistas-2016-hover">DAEDELUS</p>
+                <p class="artistas-2016-hover">FREE THE ROBOTS</p>
+                <p class="artistas-2016-hover">MONO / POLY</p>
+                <p class="artistas-2016-hover">ANDY MARTIN</p>
+                <p class="artistas-2016-hover">ALEJANDRO FRANCO</p>
+                <p class="artistas-2016-hover">DURANGO 95</p>
+                <p class="artistas-2016-hover">JERRY ZZZ</p>
+                <p class="artistas-2016-hover">CLEAN IS GOOD</p>
+                <p class="artistas-2016-hover">INTERFLAMENCA</p>
+            </div>
+            <div class="col-sm-6 lineup-artistas">
+                <p class="artistas-2016-hover">ESSTRO 9</p>
+                <p class="artistas-2016-hover">ERNESTO MALACA (ABLETON)</p>
+                <p class="artistas-2016-hover">HAKA GAMES STUDIO</p>
+                <p class="artistas-2016-hover">BROKEN ENGLISH</p>
+                <p class="artistas-2016-hover">HORACIO WARPOLA</p>
+                <p class="artistas-2016-hover">P·C·O·N·P</p>
+                <p class="artistas-2016-hover">JOSÉ CARLOS ZUBIAUR</p>
+                <p class="artistas-2016-hover">ALBERTO BENAVIDES</p>
+                <p class="artistas-2016-hover">MEL IZANAMI</p>
+            </div>
+        </div>
+    </div>
+
+
     <br>
 
     <!-- INFO ¿Qué es? INICIO _____________________________________________________________________________  -->
@@ -96,44 +144,30 @@
     </div>
     <!-- INFO ¿Qué es? INICIO _____________________________________________________________________________  -->
     <br>
-    <div class="container">
-        <div class="row">
 
-            <div class="col-sm-12">
-                <center>
-                    <h1 class="tituloMasGrande">
-                        <b>L I N E U P // 2 0 1 7</b>
-                    </h1>
-                    <h1 class="tituloGrande">
-                        <b>
-                            <span class="blink_me">próximamente</span>
-                        </b>
-                    </h1>
-                </center>
-            </div>
+
+
+    <div class="row">
+        <div class="col-sm-12">
+            <center>
+                <h1 class="tituloGrande">
+                    <b>2 0 1 6</b>
+                </h1>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/idFCKLX9puE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
+                        allowfullscreen></iframe>
+                </div>
+            </center>
         </div>
-        <br>
-        <div class="row">
-            <div class="col-sm-12">
-                <center>
-                    <h1 class="tituloGrande">
-                        <b>2 0 1 6</b>
-                    </h1>
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/idFCKLX9puE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
-                            allowfullscreen></iframe>
-                    </div>
-                </center>
-            </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-sm-12">
+            <center>
+                <h3 id="boton-artistas" style="cursor: pointer;" class="parrafo-especial"> Artistas de la 1° edición</h3>
+            </center>
         </div>
-        <br>
-        <div class="row">
-            <div class="col-sm-12">
-                <center>
-                    <h3 id="boton-artistas" style="cursor: pointer;" class="parrafo-especial"> Artistas de la 1° edición</h3>
-                </center>
-            </div>
-        </div>
+    </div>
     </div>
     <br>
     <!-- artistas 2016-->
@@ -300,8 +334,10 @@
                     <br>
                     <p id="copyrights">Festival Sonorum 2017 (página en construcción) &copy;. Todos los derechos reservados | Página web por
                         <a target="_blank" href="http://animanoir.com">
-                            <b>Animanoir</b>
+                            <b>ANIMANOIR</b>
                         </a>
+                        /
+                        <b>P·C·O·N·P</b>
                     </p>
                 </div>
             </div>
