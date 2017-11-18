@@ -41,6 +41,11 @@ video{
   font-size: 0.5em;
 }
 
+.patrocinadores{
+  width: 80%;
+  /* height: 80%; */
+}
+
 
 .boton-menu:hover {
   background-color: black;
