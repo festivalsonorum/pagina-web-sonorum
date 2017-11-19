@@ -2,9 +2,90 @@ $(document).ready(function () {
 
     //Esconde los artistas 2016
     $("#artistas-2016").hide();
+
     //Si se hace click en 'Artistas' aparecen los artistas 2016:
     $("#boton-artistas").click(function () {
         $("#artistas-2016").slideToggle(500);
+    });
+
+    $(".ocultar").click(function(){
+        $("#daed").hide();
+        $("#free").hide();
+        $("#mono").hide();
+        $("#andy").hide();
+        $("#franco").hide();
+        $("#durango").hide();
+        $("#jerry").hide();
+        $("#clean").hide();
+        $("#inter").hide();
+    });
+
+    $("#daed").hide();
+    $("#free").hide();
+    $("#mono").hide();
+    $("#andy").hide();
+    $("#franco").hide();
+    $("#durango").hide();
+    $("#jerry").hide();
+    $("#clean").hide();
+    $("#inter").hide();
+
+    $("#cdaed").click(function () {
+        $("#daed").slideToggle(200);
+        
+        // $('html, body').animate({
+        //     scrollTop: $("#daed").offset().top
+        // }, 500);
+    });
+
+    $("#cfree").click(function () {
+        $("#free").slideToggle(200);
+        // $('html, body').animate({
+        //     scrollTop: $("#free").offset().top
+        // }, 500);
+    });
+    $("#cmono").click(function () {
+        $("#mono").slideToggle(200);
+        // $('html, body').animate({
+        //     scrollTop: $("#mono").offset().top
+        // }, 500);
+    });
+    $("#candy").click(function () {
+        $("#andy").slideToggle(200);
+        // $('html, body').animate({
+        //     scrollTop: $("#andy").offset().top
+        // }, 500);
+    });
+    $("#cfranco").click(function () {
+        $("#franco").slideToggle(200);
+        // $('html, body').animate({
+        //     scrollTop: $("#franco").offset().top
+        // }, 500);
+    });
+    $("#cdurango").click(function () {
+        $("#durango").slideToggle(200);
+        // $('html, body').animate({
+        //     scrollTop: $("#durango").offset().top
+        // }, 500);
+    });
+    $("#cjerry").click(function () {
+        $("#jerry").slideToggle(200);
+        // $('html, body').animate({
+        //     scrollTop: $("#jerry").offset().top
+        // }, 500);
+    });
+    $("#cclean").click(function () {
+        $("#clean").slideToggle(200);
+        // $('html, body').animate({
+        //     scrollTop: $("#clean").offset().top
+        // }, 500);
+    });
+    $("#cinter").click(function () {
+        $("#inter").slideToggle(200);
+
+        // $('html, body').animate({
+        //     scrollTop: $("#inter").offset().top
+        // }, 500);
     });
 
     //Magnific-Popup

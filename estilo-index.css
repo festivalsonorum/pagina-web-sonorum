@@ -27,6 +27,10 @@ video{
 
 /*clases------------------------------------------------*/
 
+.tarjeta-artista{
+  width: 100%;
+}
+
 .boton-menu{
   background-color: transparent;
   border: none;
