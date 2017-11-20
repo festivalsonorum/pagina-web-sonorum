@@ -2,6 +2,13 @@
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300"; /*Texto general*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:600'); /*Otros*/
 
+/*Para que se oculte el p5js cuando está en móvil <3*/
+@media only screen and (max-width: 600px) {
+  #p5Canvas {
+      display: none;
+  }
+}
+
 @font-face { font-family: DIN; src: url('media/DINCondensed-Bold.ttf'); } 
 
 body {

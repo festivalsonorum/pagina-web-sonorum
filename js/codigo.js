@@ -18,6 +18,15 @@ $(document).ready(function () {
         $("#jerry").hide();
         $("#clean").hide();
         $("#inter").hide();
+        $("#esstro").hide();
+        $("#malaca").hide();
+        $("#haka").hide();
+        $("#broken").hide();
+        $("#horacio").hide();
+        $("#zub").hide();
+        $("#pe").hide();
+        $("#vena").hide();
+        $("#mel").hide();
     });
 
     $("#daed").hide();
@@ -37,6 +46,36 @@ $(document).ready(function () {
     $("#zub").hide();
     $("#pe").hide();
     $("#vena").hide();
+    $("#mel").hide();
+
+    $("#cmel").click(function () {
+        $("#mel").slideToggle(200);
+
+        $('html, body').animate({
+            scrollTop: $("#lineupDiv").offset().top
+        }, 500);
+
+        $("#daed").hide();
+        $("#free").hide();
+        $("#mono").hide();
+        $("#andy").hide();
+        $("#franco").hide();
+        $("#durango").hide();
+        $("#jerry").hide();
+        $("#clean").hide();
+        $("#inter").hide();
+        $("#esstro").hide();
+        $("#malaca").hide();
+        $("#haka").hide();
+        $("#broken").hide();
+        $("#horacio").hide();
+        $("#zub").hide();
+        $("#pe").hide();
+        $("#vena").hide();
+        // $("#mel").hide();
+
+
+    });
 
     $("#cvena").click(function () {
         $("#vena").slideToggle(200);
@@ -54,10 +93,17 @@ $(document).ready(function () {
         $("#jerry").hide();
         $("#clean").hide();
         $("#inter").hide();
+        $("#esstro").hide();
         $("#malaca").hide();
+        $("#haka").hide();
         $("#broken").hide();
         $("#horacio").hide();
         $("#zub").hide();
+        $("#pe").hide();
+        // $("#vena").hide();
+        $("#mel").hide();
+    
+
     });
 
     $("#cpe").click(function () {
@@ -76,12 +122,16 @@ $(document).ready(function () {
         $("#jerry").hide();
         $("#clean").hide();
         $("#inter").hide();
+        $("#esstro").hide();
         $("#malaca").hide();
+        $("#haka").hide();
         $("#broken").hide();
         $("#horacio").hide();
         $("#zub").hide();
+        // $("#pe").hide();
         $("#vena").hide();
-        $("#vena").hide();
+        $("#mel").hide();
+
 
     });
 
@@ -102,11 +152,15 @@ $(document).ready(function () {
         $("#jerry").hide();
         $("#clean").hide();
         $("#inter").hide();
+        $("#esstro").hide();
         $("#malaca").hide();
+        $("#haka").hide();
         $("#broken").hide();
+        $("#horacio").hide();
+        // $("#zub").hide();
+        $("#pe").hide();
         $("#vena").hide();
-
-
+        $("#mel").hide();
     });
 
 
@@ -125,15 +179,15 @@ $(document).ready(function () {
         $("#jerry").hide();
         $("#clean").hide();
         $("#inter").hide();
+        $("#esstro").hide();
         $("#malaca").hide();
+        $("#haka").hide();
         $("#broken").hide();
+        // $("#horacio").hide();
         $("#zub").hide();
         $("#pe").hide();
         $("#vena").hide();
-
-
-
-
+        $("#mel").hide();
     });
 
     $("#cbroken").click(function () {
@@ -151,13 +205,15 @@ $(document).ready(function () {
         $("#jerry").hide();
         $("#clean").hide();
         $("#inter").hide();
+        $("#esstro").hide();
         $("#malaca").hide();
+        $("#haka").hide();
+        // $("#broken").hide();
+        $("#horacio").hide();
         $("#zub").hide();
         $("#pe").hide();
         $("#vena").hide();
-
-
-
+        $("#mel").hide();
     });
 
     $("#chaka").click(function () {
@@ -168,6 +224,7 @@ $(document).ready(function () {
         }, 500);
         $("#daed").hide();
 
+        $("#daed").hide();
         $("#free").hide();
         $("#mono").hide();
         $("#andy").hide();
@@ -176,15 +233,15 @@ $(document).ready(function () {
         $("#jerry").hide();
         $("#clean").hide();
         $("#inter").hide();
+        $("#esstro").hide();
         $("#malaca").hide();
-        $("broken").hide();
+        // $("#haka").hide();
+        $("#broken").hide();
+        $("#horacio").hide();
         $("#zub").hide();
         $("#pe").hide();
         $("#vena").hide();
-
-
-
-
+        $("#mel").hide();
     });
 
     $("#cesstro").click(function () {
@@ -194,7 +251,6 @@ $(document).ready(function () {
             scrollTop: $("#lineupDiv").offset().top
         }, 500);
         $("#daed").hide();
-
         $("#free").hide();
         $("#mono").hide();
         $("#andy").hide();
@@ -203,17 +259,15 @@ $(document).ready(function () {
         $("#jerry").hide();
         $("#clean").hide();
         $("#inter").hide();
+        // $("#esstro").hide();
         $("#malaca").hide();
         $("#haka").hide();
-        $("broken").hide();
+        $("#broken").hide();
+        $("#horacio").hide();
         $("#zub").hide();
         $("#pe").hide();
         $("#vena").hide();
-
-
-
-
-
+        $("#mel").hide();
     });
 
     $("#cmalaca").click(function () {
@@ -223,7 +277,6 @@ $(document).ready(function () {
             scrollTop: $("#lineupDiv").offset().top
         }, 500);
         $("#daed").hide();
-
         $("#free").hide();
         $("#mono").hide();
         $("#andy").hide();
@@ -233,15 +286,14 @@ $(document).ready(function () {
         $("#clean").hide();
         $("#inter").hide();
         $("#esstro").hide();
+        // $("#malaca").hide();
         $("#haka").hide();
         $("#broken").hide();
-        $("#broken").hide();
+        $("#horacio").hide();
         $("#zub").hide();
         $("#pe").hide();
         $("#vena").hide();
-
-
-
+        $("#mel").hide();
     });
 
     $("#cdaed").click(function () {
@@ -250,6 +302,7 @@ $(document).ready(function () {
         $('html, body').animate({
             scrollTop: $("#lineupDiv").offset().top
         }, 500);
+        // $("#daed").hide();
         $("#free").hide();
         $("#mono").hide();
         $("#andy").hide();
@@ -262,11 +315,11 @@ $(document).ready(function () {
         $("#malaca").hide();
         $("#haka").hide();
         $("#broken").hide();
+        $("#horacio").hide();
         $("#zub").hide();
         $("#pe").hide();
         $("#vena").hide();
-
-
+        $("#mel").hide();
     });
 
     $("#cfree").click(function () {
@@ -283,17 +336,17 @@ $(document).ready(function () {
         $("#jerry").hide();
         $("#clean").hide();
         $("#inter").hide();
-        $("#malaca").hide();
         $("#esstro").hide();
+        $("#malaca").hide();
         $("#haka").hide();
         $("#broken").hide();
+        $("#horacio").hide();
         $("#zub").hide();
         $("#pe").hide();
         $("#vena").hide();
-
-
-
+        $("#mel").hide();
     });
+
     $("#cmono").click(function () {
         $("#mono").slideToggle(200);
         $('html, body').animate({
@@ -311,11 +364,12 @@ $(document).ready(function () {
         $("#esstro").hide();
         $("#malaca").hide();
         $("#haka").hide();
-        $("broken").hide();
+        $("#broken").hide();
+        $("#horacio").hide();
         $("#zub").hide();
+        $("#pe").hide();
         $("#vena").hide();
-
-
+        $("#mel").hide();
     });
 
     $("#candy").click(function () {
@@ -335,13 +389,14 @@ $(document).ready(function () {
         $("#esstro").hide();
         $("#malaca").hide();
         $("#haka").hide();
-        $("broken").hide();
+        $("#broken").hide();
+        $("#horacio").hide();
         $("#zub").hide();
         $("#pe").hide();
         $("#vena").hide();
-
-
+        $("#mel").hide();
     });
+
     $("#cfranco").click(function () {
         $("#franco").slideToggle(200);
         $('html, body').animate({
@@ -359,13 +414,14 @@ $(document).ready(function () {
         $("#esstro").hide();
         $("#malaca").hide();
         $("#haka").hide();
-        $("broken").hide();
+        $("#broken").hide();
+        $("#horacio").hide();
         $("#zub").hide();
         $("#pe").hide();
         $("#vena").hide();
-
-
+        $("#mel").hide();
     });
+
     $("#cdurango").click(function () {
         $("#durango").slideToggle(200);
         $('html, body').animate({
@@ -381,14 +437,16 @@ $(document).ready(function () {
         $("#clean").hide();
         $("#inter").hide();
         $("#esstro").hide();
+        $("#malaca").hide();
         $("#haka").hide();
-        $("broken").hide();
+        $("#broken").hide();
+        $("#horacio").hide();
         $("#zub").hide();
         $("#pe").hide();
         $("#vena").hide();
-
-
+        $("#mel").hide();
     });
+
     $("#cjerry").click(function () {
         $("#jerry").slideToggle(200);
         $('html, body').animate({
@@ -406,13 +464,14 @@ $(document).ready(function () {
         $("#esstro").hide();
         $("#malaca").hide();
         $("#haka").hide();
-        $("broken").hide();
+        $("#broken").hide();
+        $("#horacio").hide();
         $("#zub").hide();
         $("#pe").hide();
         $("#vena").hide();
-
-
+        $("#mel").hide();
     });
+
     $("#cclean").click(function () {
         $("#clean").slideToggle(200);
         $('html, body').animate({
@@ -430,13 +489,14 @@ $(document).ready(function () {
         $("#esstro").hide();
         $("#malaca").hide();
         $("#haka").hide();
-        $("broken").hide();
+        $("#broken").hide();
+        $("#horacio").hide();
         $("#zub").hide();
         $("#pe").hide();
         $("#vena").hide();
-
-
+        $("#mel").hide();
     });
+
     $("#cinter").click(function () {
         $("#inter").slideToggle(200);
 
@@ -455,12 +515,12 @@ $(document).ready(function () {
         $("#esstro").hide();
         $("#malaca").hide();
         $("#haka").hide();
-        $("broken").hide();
+        $("#broken").hide();
+        $("#horacio").hide();
         $("#zub").hide();
         $("#pe").hide();
-
         $("#vena").hide();
-
+        $("#mel").hide();
     });
 
     //Magnific-Popup
