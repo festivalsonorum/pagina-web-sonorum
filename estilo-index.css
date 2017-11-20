@@ -7,6 +7,13 @@
   #p5Canvas {
       display: none;
   }
+  #videoSonorum{
+    display: none;
+  }
+
+  #logoNoVideo{
+    display: inline !important;
+  }
 }
 
 @font-face { font-family: DIN; src: url('media/DINCondensed-Bold.ttf'); } 
@@ -196,6 +203,10 @@ video{
   font-size: 1.1em;
 }
 /*ids---------------------------------------------------------------*/
+
+#logoNoVideo{
+  display: none;
+}
 
 #boton-artistas:hover{
   color: black;
