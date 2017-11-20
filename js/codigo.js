@@ -33,59 +33,141 @@ $(document).ready(function () {
     $("#cdaed").click(function () {
         $("#daed").slideToggle(200);
         
-        // $('html, body').animate({
-        //     scrollTop: $("#daed").offset().top
-        // }, 500);
+        $('html, body').animate({
+            scrollTop: $("#lineupDiv").offset().top
+        }, 500);
+        $("#free").hide();
+        $("#mono").hide();
+        $("#andy").hide();
+        $("#franco").hide();
+        $("#durango").hide();
+        $("#jerry").hide();
+        $("#clean").hide();
+        $("#inter").hide();
     });
 
     $("#cfree").click(function () {
         $("#free").slideToggle(200);
-        // $('html, body').animate({
-        //     scrollTop: $("#free").offset().top
-        // }, 500);
+        $('html, body').animate({
+            scrollTop: $("#lineupDiv").offset().top
+        }, 500);
+        $("#daed").hide();
+        // $("#free").hide();
+        $("#mono").hide();
+        $("#andy").hide();
+        $("#franco").hide();
+        $("#durango").hide();
+        $("#jerry").hide();
+        $("#clean").hide();
+        $("#inter").hide();
     });
     $("#cmono").click(function () {
         $("#mono").slideToggle(200);
-        // $('html, body').animate({
-        //     scrollTop: $("#mono").offset().top
-        // }, 500);
+        $('html, body').animate({
+            scrollTop: $("#lineupDiv").offset().top
+        }, 500);
+        $("#daed").hide();
+        $("#free").hide();
+        // $("#mono").hide();
+        $("#andy").hide();
+        $("#franco").hide();
+        $("#durango").hide();
+        $("#jerry").hide();
+        $("#clean").hide();
+        $("#inter").hide();
+
+        
     });
     $("#candy").click(function () {
         $("#andy").slideToggle(200);
-        // $('html, body').animate({
-        //     scrollTop: $("#andy").offset().top
-        // }, 500);
+        $('html, body').animate({
+            scrollTop: $("#lineupDiv").offset().top
+        }, 500);
+        $("#daed").hide();
+        $("#free").hide();
+        $("#mono").hide();
+        // $("#andy").hide();
+        $("#franco").hide();
+        $("#durango").hide();
+        $("#jerry").hide();
+        $("#clean").hide();
+        $("#inter").hide();
     });
     $("#cfranco").click(function () {
         $("#franco").slideToggle(200);
-        // $('html, body').animate({
-        //     scrollTop: $("#franco").offset().top
-        // }, 500);
+        $('html, body').animate({
+            scrollTop: $("#lineupDiv").offset().top
+        }, 500);
+        $("#daed").hide();
+        $("#free").hide();
+        $("#mono").hide();
+        $("#andy").hide();
+        // $("#franco").hide();
+        $("#durango").hide();
+        $("#jerry").hide();
+        $("#clean").hide();
+        $("#inter").hide();
     });
     $("#cdurango").click(function () {
         $("#durango").slideToggle(200);
-        // $('html, body').animate({
-        //     scrollTop: $("#durango").offset().top
-        // }, 500);
+        $('html, body').animate({
+            scrollTop: $("#lineupDiv").offset().top
+        }, 500);
+        $("#daed").hide();
+        $("#free").hide();
+        $("#mono").hide();
+        $("#andy").hide();
+        $("#franco").hide();
+        // $("#durango").hide();
+        $("#jerry").hide();
+        $("#clean").hide();
+        $("#inter").hide();
     });
     $("#cjerry").click(function () {
         $("#jerry").slideToggle(200);
-        // $('html, body').animate({
-        //     scrollTop: $("#jerry").offset().top
-        // }, 500);
+        $('html, body').animate({
+            scrollTop: $("#lineupDiv").offset().top
+        }, 500);
+        $("#daed").hide();
+        $("#free").hide();
+        $("#mono").hide();
+        $("#andy").hide();
+        $("#franco").hide();
+        $("#durango").hide();
+        // $("#jerry").hide();
+        $("#clean").hide();
+        $("#inter").hide();
     });
     $("#cclean").click(function () {
         $("#clean").slideToggle(200);
-        // $('html, body').animate({
-        //     scrollTop: $("#clean").offset().top
-        // }, 500);
+        $('html, body').animate({
+            scrollTop: $("#lineupDiv").offset().top
+        }, 500);
+        $("#daed").hide();
+        $("#free").hide();
+        $("#mono").hide();
+        $("#andy").hide();
+        $("#franco").hide();
+        $("#durango").hide();
+        $("#jerry").hide();
+        // $("#clean").hide();
+        $("#inter").hide();
     });
     $("#cinter").click(function () {
         $("#inter").slideToggle(200);
 
-        // $('html, body').animate({
-        //     scrollTop: $("#inter").offset().top
-        // }, 500);
+        $('html, body').animate({
+            scrollTop: $("#lineupDiv").offset().top
+        }, 500);
+        $("#daed").hide();
+        $("#free").hide();
+        $("#mono").hide();
+        $("#andy").hide();
+        $("#franco").hide();
+        $("#durango").hide();
+        $("#jerry").hide();
+        $("#clean").hide();
+        // $("#inter").hide();
     });
 
     //Magnific-Popup
