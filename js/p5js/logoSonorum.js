@@ -34,6 +34,8 @@ function setup() {
   w2 = width+16;
   dx2 = (TWO_PI / period2) * xspacing2;
   yvalues2 = new Array(floor(w2/xspacing2));
+
+  imageMode(CENTER);
 }
 
 function draw() {
@@ -44,7 +46,7 @@ function draw() {
 
   calcWave2();
   renderWave2();
-  image(imgLogo, 0, 0, 761, 176);
+  image(imgLogo, windowWidth/2, 69, 761, 176);
 
 
   var mapMouseX = map(mouseX, 0, windowWidth, 6, 8);
