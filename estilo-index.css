@@ -2,6 +2,8 @@
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300"; /*Texto general*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:600'); /*Otros*/
 
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
 /*Para que se oculte el p5js cuando está en móvil <3*/
 @media only screen and (max-width: 600px) {
   #p5Canvas {
@@ -40,6 +42,10 @@ video{
 }
 
 /*clases------------------------------------------------*/
+
+.modal-body{
+  font-family: 'Work Sans', sans-serif;
+}
 
 .tarjeta-artista{
   width: 100%;
@@ -156,6 +162,7 @@ video{
 
 .parrafo {
   font-size: 1.2em;
+  font-family: 'Work Sans', sans-serif !important;
 }
 
 .artistas {
@@ -203,6 +210,12 @@ video{
   font-size: 1.1em;
 }
 /*ids---------------------------------------------------------------*/
+
+#boletos{
+  background-color: grey !important;
+  font-family: 'Work Sans', sans-serif !important;
+  
+}
 
 #logoNoVideo{
   display: none;
