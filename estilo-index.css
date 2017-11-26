@@ -1,27 +1,30 @@
 /*Fuente de Google Fonts*/
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300"; /*Texto general*/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:600'); /*Otros*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:600"); /*Otros*/
 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url("https://fonts.googleapis.com/css?family=Work+Sans");
 
 /*Para que se oculte el p5js cuando está en móvil <3*/
 @media only screen and (max-width: 600px) {
   #p5Canvas {
-      display: none;
+    display: none;
   }
-  #videoSonorum{
+  #videoSonorum {
     display: none;
   }
 
-  #logoNoVideo{
+  #logoNoVideo {
     display: inline !important;
   }
 }
 
-@font-face { font-family: DIN; src: url('media/DINCondensed-Bold.ttf'); } 
+@font-face {
+  font-family: DIN;
+  src: url("media/DINCondensed-Bold.ttf");
+}
 
 body {
-  background-color: #D2D2D2;
+  background-color: #d2d2d2;
 }
 
 h1 {
@@ -36,22 +39,22 @@ footer {
   font-size: 0.9em;
 }
 
-video{
- width: 100%;
- height: auto;
+video {
+  width: 100%;
+  height: auto;
 }
 
 /*clases------------------------------------------------*/
 
-.modal-body{
-  font-family: 'Work Sans', sans-serif;
+.modal-body {
+  font-family: "Work Sans", sans-serif;
 }
 
-.tarjeta-artista{
+.tarjeta-artista {
   width: 100%;
 }
 
-.boton-menu{
+.boton-menu {
   background-color: transparent;
   border: none;
   color: black;
@@ -65,19 +68,17 @@ video{
   font-size: 0.5em;
 }
 
-.patrocinadores{
+.patrocinadores {
   width: 80%;
   /* height: 80%; */
 }
-
 
 .boton-menu:hover {
   background-color: black;
   color: white;
 }
 
-
-.lineup-artistas{
+.lineup-artistas {
   font-size: 1.7em;
   letter-spacing: 2px;
   /* font-weight: bold; */
@@ -85,7 +86,7 @@ video{
   font-family: "DIN", sans-serif;
 }
 
-.no-arrastrar{
+.no-arrastrar {
   pointer-events: none;
 }
 
@@ -112,11 +113,12 @@ video{
   font-size: 25px;
   color: #818181;
   display: block;
-  transition: 0.3s
+  transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover, .offcanvas a:focus{
+.sidenav a:hover,
+.offcanvas a:focus {
   color: #f1f1f1;
 }
 
@@ -129,17 +131,20 @@ video{
   margin-left: 50px;
 }
 
-
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-  transition: margin-left .5s;
+  transition: margin-left 0.5s;
   padding: 20px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 
 /*El menu sidebar - FIN*/
@@ -162,7 +167,7 @@ video{
 
 .parrafo {
   font-size: 1.2em;
-  font-family: 'Work Sans', sans-serif !important;
+  font-family: "Work Sans", sans-serif !important;
 }
 
 .artistas {
@@ -191,12 +196,12 @@ video{
   font-size: 1.4em;
 }
 
-.parrafo-especial{
+.parrafo-especial {
   color: #656567;
   font-size: 2em !important;
 }
 
-.artistas-2016-hover{
+.artistas-2016-hover {
   background: linear-gradient(
     to right,
     rgba(255, 255, 255, 0) 50%,
@@ -211,17 +216,32 @@ video{
 }
 /*ids---------------------------------------------------------------*/
 
-#boletos{
-  background-color: grey !important;
-  font-family: 'Work Sans', sans-serif !important;
-  
+#linchid4{
+  position: absolute;
 }
 
-#logoNoVideo{
+#linchid2 {
+  position: absolute;
+}
+
+#linchid3 {
+  position: absolute;
+}
+
+#info-artistas17 {
+  clear: both;
+}
+
+#boletos {
+  background-color: grey !important;
+  font-family: "Work Sans", sans-serif !important;
+}
+
+#logoNoVideo {
   display: none;
 }
 
-#boton-artistas:hover{
+#boton-artistas:hover {
   color: black;
 }
 
@@ -229,18 +249,18 @@ video{
   font-family: "Open Sans Condensed", sans-serif;
 }
 
-#boton-menu{
-  cursor: pointer; 
+#boton-menu {
+  cursor: pointer;
   font-size: 2.3em;
   position: fixed;
   z-index: 1000;
 }
 
-#p5Canvas{
- z-index: -1;
+#p5Canvas {
+  z-index: -1;
 }
 
-#fondo-galeria-bg{
+#fondo-galeria-bg {
   width: 50%;
 }
 /*efectos de css--------------------------------------------*/
@@ -250,7 +270,7 @@ video{
   background-position: -100% 0;
 }
 
-.artistas-2016-hover:hover{
+.artistas-2016-hover:hover {
   background-position: -100% 0;
 }
 
